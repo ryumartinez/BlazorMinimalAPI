@@ -1,4 +1,5 @@
-﻿using BlazorMinimalApis.Pages.Data;
+﻿using StringComparison = System.StringComparison;
+using BlazorMinimalApis.Pages.Data;
 using BlazorMinimalApis.Lib.Routing;
 using BlazorMinimalApis.Pages.Lib;
 using Microsoft.AspNetCore.Mvc;

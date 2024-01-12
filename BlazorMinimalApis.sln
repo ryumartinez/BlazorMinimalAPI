@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMinimalApis.Pages", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMinimalApis", "BlazorMinimalApis\BlazorMinimalApis.csproj", "{76133159-61DF-409C-AF01-16D3F94A4CED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{FB051541-CD5A-4459-95A2-75D8D600B28C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{76133159-61DF-409C-AF01-16D3F94A4CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76133159-61DF-409C-AF01-16D3F94A4CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76133159-61DF-409C-AF01-16D3F94A4CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB051541-CD5A-4459-95A2-75D8D600B28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB051541-CD5A-4459-95A2-75D8D600B28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB051541-CD5A-4459-95A2-75D8D600B28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB051541-CD5A-4459-95A2-75D8D600B28C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

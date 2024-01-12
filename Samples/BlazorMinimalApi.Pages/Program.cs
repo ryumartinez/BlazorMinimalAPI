@@ -1,4 +1,5 @@
 using BlazorMinimalApis.Lib.Session;
+using BlazorMinimalApis.Pages.Data;
 using BlazorMinimalApis.Pages.Lib;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,8 @@ builder.Services.AddSession(options => {
 });
 //builder.Services.AddAuthentication<IAuthValidator>();
 //builder.Services.AddAuthorization(new string[] { "Admin", "User" });
+
+ServiceInjection.ConfigureServices(builder.Services, builder.Configuration);
 
 var app = builder.Build();
 
