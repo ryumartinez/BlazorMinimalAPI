@@ -1,10 +1,13 @@
 namespace TestProject1;
 
-public class Tests
+[TestFixture]
+[Category("Integration")]
+public class Tests  : TestBase
 {
     [SetUp]
     public void Setup()
     {
+        SetupDbContext();
     }
 
     [Test]

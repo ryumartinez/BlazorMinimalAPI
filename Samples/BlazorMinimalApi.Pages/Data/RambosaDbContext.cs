@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BlazorMinimalApis.Pages.Data.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlazorMinimalApis.Pages.Data;
 
@@ -13,9 +14,3 @@ public class RambosaDbContext : DbContext
     public DbSet<Ingredient> Ingredients { get; set; } = null!;
 }
 
-public class Ingredient
-{
-    public int IngredientId { get; set; }
-    public int Price { get; set; }
-    public string Name { get; set; } = null!;
-}

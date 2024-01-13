@@ -40,7 +40,6 @@
 
   <ItemGroup>
     <Folder Include="Data\Configuration\" />
-    <Folder Include="Data\Domain\" />
     <Folder Include="Pages\Dishes\" />
   </ItemGroup>
 

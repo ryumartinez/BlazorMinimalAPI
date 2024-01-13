@@ -1,4 +1,6 @@
-﻿namespace TestProject1;
+﻿using BlazorMinimalApis.Pages.Data.Domain;
+
+namespace TestProject1;
 
 public class DbTestSetup
 {
@@ -10,6 +12,7 @@ public class DbTestSetup
         await dbContext.Database.EnsureCreatedAsync();
 
         dbContext.ChangeTracker.AutoDetectChangesEnabled = false;
+        await dbContext.Ingredients.AddAsync(new Ingredient() {Name = "hola", Price = 1233});
         await dbContext.SaveChangesAsync();
     }
 }
