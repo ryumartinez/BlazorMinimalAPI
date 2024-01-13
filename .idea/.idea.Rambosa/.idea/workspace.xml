@@ -15,13 +15,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="734538a6-82db-4343-9173-39b6ca7bbc40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlazorMinimalApis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlazorMinimalApis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samples/BlazorMinimalApi.Pages/BlazorMinimalApis.Pages.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/BlazorMinimalApi.Pages/BlazorMinimalApis.Pages.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samples/BlazorMinimalApi.Pages/Data/RambosaDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/BlazorMinimalApi.Pages/Data/RambosaDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/DbTestSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/DbTestSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/UnitTest1.cs" afterDir="false" />
-    </list>
+    <list default="true" id="734538a6-82db-4343-9173-39b6ca7bbc40" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +210,7 @@
       <workItem from="1699548322905" duration="918000" />
       <workItem from="1700602273184" duration="123000" />
       <workItem from="1705099378178" duration="856000" />
-      <workItem from="1705177725054" duration="1274000" />
+      <workItem from="1705177725054" duration="1646000" />
     </task>
     <servers />
   </component>
